@@ -1,0 +1,21 @@
+git stash list
+create a file, git add file
+git stash save "stash1"
+git stash list
+git stash show stash@{0}
+git stash show -p stash@{0}
+
+POP = cut
+===
+git stash pop
+git stash pop stash@{x}
+
+APPLY = copy
+=====
+git stash apply
+git stash apply stash@{x}
+
+DROP = delete
+====
+git stash drop
+git stash drop stash@{x}
