@@ -1,0 +1,11 @@
+Reset
+======
+git add file1  (workspace to staging)
+git reset head file1  (staging to workspace)
+
+git commit -m "sample commit"  (staging to local)
+git reset --soft cid  (n-1)    (local to staging)
+
+git reset --mixed cid  (n-1)   (local to workspace)
+
+git reset --hard cid  (n-1)   (to delete commit and commit files)
