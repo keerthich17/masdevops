@@ -2,12 +2,3 @@ Hi
 Good Morning
 Welcome 
 have a great day
-Fetch  : by fetch command the modification done in local repo it will not dispaly.if  we want that data need to follow below steps. 
-=====
-to show that data we will use following command like
-git branch -r 
-git show origin/branchname 
-git merge origin/branchname
-
-git pull = git fetch + git merge
-git pull - this command to check the data, modidications done in central repo.
