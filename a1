@@ -2,3 +2,8 @@ Hi
 Good Morning
 Welcome 
 have a great day
+Diff
+====
+git diff file1 file2
+git diff main release1
+
