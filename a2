@@ -19,3 +19,4 @@ DROP = delete
 ====
 git stash drop
 git stash drop stash@{x}
+====================================
